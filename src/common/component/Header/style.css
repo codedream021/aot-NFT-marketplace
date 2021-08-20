@@ -1,4 +1,24 @@
 .header {
-    background-color: red;
-    color: white;
+  color: black
+}
+.header .header-inner .MuiAppBar-root{
+  background-color: white;
+  color: black;
+  box-shadow: none;
+}
+.header .header-inner .MuiToolbar-root{
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+} 
+.header .header-inner .logo{
+  background-color: #CACACA;
+  color: white;
+  padding: 3px 10px;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.header .header-inner .MuiButton-colorInherit{
+  font-weight: 500;
 }
