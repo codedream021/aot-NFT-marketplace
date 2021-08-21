@@ -7,6 +7,7 @@ import {
 
 import Home from './views/Home'
 import AdvanceSearch from './views/AdvanceSearch'
+import AceResults from './views/AceResults'
 // import '../style/index.scss'
 
 export default withRouter(() => {
@@ -23,6 +24,7 @@ const Main = () => {
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/advance_search" component={AdvanceSearch} />
+      <Route exact path="/ace_results" component={AceResults} />
     </Switch>
   )
 }
