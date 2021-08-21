@@ -1,6 +1,9 @@
 .header {
   color: black
 }
+.header .header-inner a {
+  text-decoration: none;
+}
 .header .header-inner .MuiAppBar-root{
   background-color: white;
   color: black;
@@ -12,6 +15,7 @@
   padding: 0;
 } 
 .header .header-inner .logo{
+  text-decoration: none;
   background-color: #CACACA;
   color: white;
   padding: 3px 10px;
@@ -21,4 +25,13 @@
 }
 .header .header-inner .MuiButton-colorInherit{
   font-weight: 500;
+}
+.header .header-inner  .avatar{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin:0 15px ;
+}
+.header .header-inner .right-bar{
+display: flex;
 }
