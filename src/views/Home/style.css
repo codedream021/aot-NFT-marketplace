@@ -1,53 +1,52 @@
 .home .title {
-    font-size: 70px;
+  font-size: 70px;
 }
 .home .home-contant {
-   padding-top: 50px;
+  padding-top: 50px;
 }
 .home .home-contant  .search-input{
-    margin-top: 30px;
+  margin-top: 30px;
 }
 .home .home-contant  .search-input input{
-    height: 34px;
-    padding: 10px 0px 10px 0px;
-    width: 200px;
+  height: 34px;
+  padding: 10px 0px 10px 0px;
+  width: 200px;
 }
 .home .home-contant  .search-input input::placeholder {
-    color: rgb(0, 0, 0);
-    opacity: 1; 
-  }
+  color: rgb(0, 0, 0);
+  opacity: 1; 
+}
   
-  .home .home-contant  .search-input input::-ms-input-placeholder { 
-   color: rgb(0, 0, 0);
-  }
+.home .home-contant  .search-input input::-ms-input-placeholder { 
+  color: rgb(0, 0, 0);
+}
   
-  .home .home-contant  .search-input input::-ms-input-placeholder { 
-   color: rgb(0, 0, 0);
+.home .home-contant  .search-input input::-ms-input-placeholder { 
+  color: rgb(0, 0, 0);
+}
+.home .home-contant .advanc-btn{
+  background-color: black;
+  color: white;
+  margin-top: 15px;
+  padding: 15px 20px;
+}
+.home .home-contant .topic-list{
+  min-height: 150px;
+  max-height: 150px;
+  overflow: auto;
+  border: 1px solid rgb(175, 175, 175);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top:20px
   }
-  .home .home-contant .advanc-btn{
-background-color: black;
-color: white;
-margin-top: 15px;
-padding: 15px 20px;
-  }
-  .home .home-contant .topic-list{
-      min-height: 150px;
-      max-height: 150px;
-      overflow: auto;
-      border: 1px solid rgb(175, 175, 175);
-      padding: 20px;
-      border-radius: 10px;
-      margin-top:20px
-  }
-  .home .home-contant  .intro-viode{
-    min-height: 400px;
-    max-height: 400px;
-    overflow: hidden;
-    border: 1px solid rgb(175, 175, 175);
+.home .home-contant  .intro-viode{
+  min-height: 400px;
+  max-height: 400px;
+  overflow: hidden;
+  border: 1px solid rgb(175, 175, 175);
   margin-top: 20px;
-    border-radius: 40px;
-  }
-  .home .home-contant .row{
-      
-    align-items: center;
-  }
+  border-radius: 40px;
+}
+.home .home-contant .row{ 
+  align-items: center;
+}
