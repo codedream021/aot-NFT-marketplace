@@ -1,36 +1,33 @@
 .home .title {
   font-size: 70px;
 }
-.home .home-contant {
-  padding-top: 50px;
-}
-.home .home-contant  .search-input{
+.home .search-input{
   margin-top: 30px;
 }
-.home .home-contant  .search-input input{
+.home .search-input input{
   height: 34px;
   padding: 10px 0px 10px 0px;
   width: 200px;
 }
-.home .home-contant  .search-input input::placeholder {
+.home .search-input input::placeholder {
   color: rgb(0, 0, 0);
   opacity: 1; 
 }
   
-.home .home-contant  .search-input input::-ms-input-placeholder { 
+.home .search-input input::-ms-input-placeholder { 
   color: rgb(0, 0, 0);
 }
   
-.home .home-contant  .search-input input::-ms-input-placeholder { 
+.home .search-input input::-ms-input-placeholder { 
   color: rgb(0, 0, 0);
 }
-.home .home-contant .advanc-btn{
+.home .advanc-btn{
   background-color: black;
   color: white;
   margin-top: 15px;
   padding: 15px 20px;
 }
-.home .home-contant .topic-list{
+.home .topic-list{
   min-height: 150px;
   max-height: 150px;
   overflow: auto;
@@ -39,7 +36,7 @@
   border-radius: 10px;
   margin-top:20px
   }
-.home .home-contant  .intro-viode{
+.home  .intro-viode{
   min-height: 400px;
   max-height: 400px;
   overflow: hidden;
@@ -47,6 +44,6 @@
   margin-top: 20px;
   border-radius: 40px;
 }
-.home .home-contant .row{ 
+.home .row{ 
   align-items: center;
 }
