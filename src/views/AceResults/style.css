@@ -1,0 +1,59 @@
+.aces-result{
+  padding-top: 50px;
+}
+.aces-result .MuiSelect-select {
+  width: 222px; 
+}
+.MuiFormControl-root{
+  margin-top: 30px!important;
+}
+.aces-result .MuiInputLabel-root  {
+  background: white;
+  padding: 0 5px;
+}
+.aces-user{
+  display: flex;
+  justify-content: space-between;
+  max-width: 300px;
+  border-radius: 20px;
+  border:1px solid rgb(117, 117, 117);
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+.aces-result  .aces-user img{
+  width: 70px;
+}
+.aces-result  .result-info{
+display: flex;
+align-items: center;
+margin-top: 30px;
+}
+.aces-result  .book{
+  margin-left: 20px;
+  background: #33A789;
+  color: white;
+  padding: 2px 5px;
+}
+.aces-result  .book:hover{
+  background: #33A789;
+  color: white;
+}
+.aces-result .btn-primary{
+background-color: #414BB2;
+color: white;
+padding: 10px 20px;
+margin-top: 30px;
+}
+.aces-result .btn-primary:hover{
+  background-color: #414BB2;
+  color: white;
+}
+.aces-user .discription{
+  text-align: end;
+  font-size: 14px; 
+}
+@media (min-width:700px){
+  .aces-result .MuiFormControl-root{
+  margin-left: 52px!important;
+}
+}

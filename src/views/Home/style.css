@@ -27,6 +27,9 @@
   margin-top: 15px;
   padding: 15px 20px;
 }
+.home .advanc-btn:hover {
+  background-color: black;
+}
 .home .topic-list{
   min-height: 150px;
   max-height: 150px;
