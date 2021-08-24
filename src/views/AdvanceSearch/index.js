@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom';
 import Grid from '@material-ui/core/Grid';
 import InputAdornment from '@material-ui/core/InputAdornment';
@@ -17,7 +17,7 @@ import Twitch from '../../assets/twitch.png'
 import './style.css';
 
 const AdvanceSearch = () => {
-  const [topic, setTopic] = useState(false)
+  const topic = false
   return (
     <Layout>
       <div className="advance-search">
