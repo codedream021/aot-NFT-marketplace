@@ -86,25 +86,23 @@ const Header = () => {
             onClose: handleDrawerClose,
           }}
         >
-          <div>
+          <div className="mobile-menu">
+
             <Button color="inherit">About AOT</Button>
             {path !== '/' ?
               <Button color="inherit">Login</Button>
               :
               <Button color="inherit">Login / Sign Up</Button>
             }
-            {path !== '/' &&
-              <img className="avatar" src={Profile} alt="profile" />
-            }
           </div>
         </Drawer>
       </Toolbar>
     );
   };
-  
+
   const displayDesktop = () => {
     return (
-      <Toolbar>
+      <Toolbar className="desktop-menu">
         <Link to="/">
           <Typography variant="h6" className="logo" >
             Aot Logo

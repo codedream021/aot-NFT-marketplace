@@ -8,7 +8,7 @@ import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import Checkbox from '@material-ui/core/Checkbox';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
-
+import Profile from '../../assets/profile_avatar.svg'
 import Layout from '../../common/component/Layout'
 import Clock from '../../assets/clock.svg'
 import Doller from '../../assets/doller_Icon.svg'
@@ -24,6 +24,7 @@ const AdvanceSearch = () => {
         <Grid container spacing={8}>
           <Grid item xs={12} sm={12} md={8} lg={6}>
             <div>
+              <img className="avatar" src={Profile} alt="profile" />
               {!topic ?
                 <div className="search-input" >
                   <TextField
@@ -44,6 +45,7 @@ const AdvanceSearch = () => {
                   #Topic  (if not topic entered yet , this wouls b Search bar )
                 </Typography>
               }
+              <Button className="filter-btn" variant="outlined">Filter my Result</Button>
               <Grid className="row" container spacing={0}>
                 <Grid item xs={12} sm={6}>
                   <Typography variant="p" className="" >
@@ -135,8 +137,8 @@ const AdvanceSearch = () => {
               <Button component={Link} to="ace_results" className="show-aces">Show me the Aces! </Button>
             </div>
           </Grid>
-          <Grid item xs={12} sm={12} md={4} lg={6} >
-          </Grid>
+          {/* <Grid item xs={12} sm={12} md={4} lg={6} >
+          </Grid> */}
         </Grid>
       </div>
     </Layout>

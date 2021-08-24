@@ -35,3 +35,16 @@
 .header .header-inner .right-bar{
 display: flex;
 }
+.mobile-menu {
+  min-width: 250px
+}
+  .mobile-menu .MuiButton-text {
+  width:100%;
+  text-align: start;
+  padding: 10px 5px;
+  border-bottom: 1px solid rgb(136, 136, 136);
+  border-radius: 0;
+}
+.mobile-menu .avatar{
+  display: none;
+}
